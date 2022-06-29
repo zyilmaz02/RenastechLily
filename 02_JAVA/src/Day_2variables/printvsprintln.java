@@ -5,11 +5,11 @@ public class printvsprintln {
     public static void main(String[] args) {
         // I am teaching the diff between print and println
         /*
-        * sdskjbc s
+        * sds
         * adfjma;ldc
         * afjcam;lsc,
         * asfhncma
-        * sfCkm
+        * sfCkmfff
         *
         *
         * */
