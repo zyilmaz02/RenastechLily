@@ -100,10 +100,81 @@ public class Session3 {
 
         System.out.println(b.endsWith("h"));
 
+//isEmpty()	          Checks whether a string is empty or not	                        boolean
+
+//trim()	              Removes whitespace from both ends of a string	                    String
+
+        String a ="R e n a s t e c h   ";
+        System.out.println(a);
+
+        System.out.println(a.trim());
+
+        //replace()	          Searches a string for a specified value, and returns
+        //                      a new string where the specified values are replaced	            String
 
 
+        System.out.println("******************");
+        String aa="java"; //aa = java
+
+        System.out.println("aa = " + aa);
+
+        System.out.println(aa.replace('a','b')); //jbvb
+
+        System.out.println(aa.replaceFirst("a","b")); //jbva
+
+        String bb="Slack";
+        System.out.println(bb.replace('S','C'));
 
 
+        String c="aaaaaaaaa";
+
+        System.out.println(c.replace('a','b'));
+
+        System.out.println(c.replaceFirst("a","b")); //baaaaaaaa
+
+        String d="Banana";
+
+        //
+
+
+        //For loop;
+
+        // sum of the numbers till 5:
+        // 1+2+3+4+5==> 15
+
+        int sum=0;
+        System.out.println("sum = " + sum);
+
+        for (int i= 0 ; i<=5 ; i++){
+            // i=0,   ; 0<=5 ; 0++
+            //i=1 ;     1<=5    1++
+            //i=2       2<=5    2++
+            // i=3      3<=5    3++
+            // i=4     4<=5     4++
+            //i=5       5<=5   5++
+            //i=6       6<=5
+
+            sum+=i;
+            //0 +=0 >> 0+0
+            ///0+i => 0+1
+            // 1+2 >> 3
+            // 3+3== > 6
+            //6 +i=> 6+4 => 10
+            //10 +5=> 10 +5 >> sum =15
+
+        }
+
+        System.out.println("sum = " + sum);
+
+
+        //
+        String firstName="AANGEL";
+
+        if(firstName.startsWith("A") && firstName.endsWith("L")) {
+            System.out.println(firstName.replaceFirst("A","B"));
+
+            // BBACL
+        }
 
 
     }
