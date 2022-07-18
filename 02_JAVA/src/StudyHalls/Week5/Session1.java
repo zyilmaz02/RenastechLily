@@ -71,8 +71,52 @@ public class Session1 {
         System.out.println( str2 +result);
 
 
+        System.out.println("********************");
+        System.out.println("********************");
+
+        //(Numbers) FINRA
+        ////    Write a Program which prints out the numbers from 1 to 30
+        // but for numbers which are a multiple of 3, print "FIN" instead of the number
+        // and for numbers which are a multiple of 5, print "RA" instead of the number.
+        // for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
 
 
+        String finra="";
+
+
+
+        for (int i = 1; i <=30 ; i++) {
+
+            //for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
+            //i=3
+
+            //    true &&  false
+            if ( i%3==0 && i%5==0){
+                finra += " FINRA ";
+                //for numbers which are a multiple of 5, print "RA" instead of the number.
+            }else if( i %5==0){
+
+                finra+= " RA ";
+
+                //for numbers which are a multiple of 3, print "FIN" instead of the number
+            }else if(i %3 ==0){
+                finra += " FIN ";
+
+            }else{
+                finra += " "+i+" ";
+
+            }
+
+
+        }
+
+        System.out.println(finra);
+
+        String a="a";
+
+        a+=10;
+
+        System.out.println("a = " + a);//a10
 
 
     }
