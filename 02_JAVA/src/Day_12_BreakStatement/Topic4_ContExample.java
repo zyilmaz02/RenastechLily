@@ -16,7 +16,9 @@ public class Topic4_ContExample {
             if(ex.charAt(i) == 'L' || ex.charAt(i) == 'A'){
                 continue;
             }
-            result = result + ex.charAt(i);
+            result = result + ex.charAt(i); // when i =0 ==> result= "", result = "" +"H"
+                                            // when i = 1 ==> result = "H" == "H"+"E" ==> result = "HE"
+                                            // when i = 4 === result = "HE" ==> "HE" +"O" ==>result = "HEO"
 
             // System.out.println(ex.charAt(i));
 
