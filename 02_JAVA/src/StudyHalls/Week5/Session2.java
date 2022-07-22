@@ -115,7 +115,7 @@ public class Session2 {
             System.out.println(number +" is not a prime number");
         }
 
-
+        System.out.println();
 
 
     }
