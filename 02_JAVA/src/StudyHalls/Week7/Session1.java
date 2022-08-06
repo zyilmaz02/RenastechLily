@@ -146,8 +146,8 @@ public class Session1 {
 
             if ( numbers[i] !=0){
 
-                answerArray[index]=numbers[i];
-                index++;
+                answerArray[index++]=numbers[i];
+               // index++;
             }
 
         }
