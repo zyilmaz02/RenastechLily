@@ -53,7 +53,9 @@ public class Topic2_WrapperClass {
 
         Double db = new Double(89.345); // the wrapper class for Double;
 
-        // Short srth = new Short();
+        //short sh = 9;
+
+        //Short srth = sh;
         Character ch = new Character('g'); // char ch = 'g'
         }
 }
